@@ -26,7 +26,7 @@ body {
 
 a {
   color: var(--color-primary);
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -285,6 +285,7 @@ h6 {
   font-size: 32px;
   margin-right: 8px;
   line-height: 0;
+  color: #27a776;
 }
 
 @media (max-width: 575px) {
@@ -674,6 +675,7 @@ h6 {
 /* GALLERY */
 .gallery {
   margin-top: 40px;
+  background-color: black;
 }
 
 .gallery .gallery-item {
@@ -1135,6 +1137,7 @@ h6 {
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
+  background-color: black;
 }
 
 .hero h2 {
@@ -1199,6 +1202,7 @@ h6 {
   padding: 30px 0;
   font-size: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: black;
 }
 
 .footer .copyright {
