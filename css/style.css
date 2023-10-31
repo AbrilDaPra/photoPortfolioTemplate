@@ -21,7 +21,7 @@ scroll-behavior: smooth;
 body {
   font-family: var(--font-default);
   color: var(--color-default);
-  background-color: #000;
+  background-color: #000 !important;
 }
 
 a {
@@ -555,7 +555,11 @@ h6 {
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
-  color: var(--color-primary);
+  color: white;
+}
+
+.about .content{
+  color: white;
 }
 
 .about .content ul {
@@ -576,7 +580,7 @@ h6 {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: var(--color-primary);
+  color: white;
   line-height: 0;
 }
 
@@ -617,7 +621,7 @@ h6 {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #fff;
+  color: #fff !important;
 }
 
 .testimonials .testimonial-item h4 {
@@ -629,6 +633,7 @@ h6 {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
+  color: white;
 }
 
 .testimonials .swiper-pagination {
@@ -1137,7 +1142,6 @@ h6 {
   background-size: cover;
   position: relative;
   padding: 140px 0 60px 0;
-  background-color: black;
 }
 
 .hero h2 {
